@@ -1,0 +1,86 @@
+.transRealTimeSign {
+  position: absolute;
+  top: 165px;
+  margin-left: 0%;
+  font-size: 30px;
+  color: black;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 1116px;
+  padding-bottom: 0px;
+}
+
+
+
+.input {
+  color: black;
+  border-color: black;
+  position: absolute;
+  top: 199px;
+  left: 61%;
+}
+
+.real {
+  text-align: center;
+  color: #00adb5;
+  font-size: 75px;
+}
+
+.output {
+  position: absolute;
+  top: 240px;
+  left: 377px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: large;
+  padding-left: 23px;
+  width: 1373px;
+  height: 78px;
+  color: black;
+}
+
+.dropdown1 {
+  color: black;
+  padding: 4px;
+  margin-left: 40%;
+  position: absolute;
+  top: 197px;
+  left: 36%;
+}
+
+.dropdown2 {
+  color: black;
+  top: 277px;
+  left: 45%;
+  position: absolute;
+}
+
+.buttonSend {
+  color: black;
+  border-style: solid;
+  border-radius: 20%;
+  border-width: 3px;
+  top: 275px;
+  left: 760px;
+  position: absolute;
+}
+
+.backout {
+  color: black;
+  font-size: 100px;
+  position: absolute;
+  left: 550px;
+}
+
+.sound {
+  color: black;
+  border-style: solid;
+  border-radius: 20%;
+  border-width: 3px;
+  top: 275px;
+  left: 865px;
+  position: absolute;
+}
