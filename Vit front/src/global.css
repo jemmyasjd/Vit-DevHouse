@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-outfit: Outfit;
+  --body-small-400: Inter;
+  --font-playfair-display: "Playfair Display";
+
+  /* font sizes */
+  --font-size-41xl: 60px;
+  --font-size-6xl: 25px;
+  --font-size-8xl: 27px;
+  --font-size-xl: 20px;
+  --font-size-48xl: 67px;
+  --body-small-400-size: 14px;
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
+  --font-size-2xs: 11px;
+  --font-size-32xl: 51px;
+
+  /* Colors */
+  --color-gray: #222831;
+  --color-lightseagreen-100: #00adb5;
+  --color-white: #fff;
+  --color-whitesmoke: #eee;
+  --color-dimgray: #566173;
+  --color-darkslategray: #393e46;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-6xl: 25px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-13xl: 32px;
+  --padding-45xl: 64px;
+  --padding-77xl: 96px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-11xl: 30px;
+  --br-base: 16px;
+  --br-44xl: 63px;
+  --br-43xl: 62px;
+  --br-5xs: 8px;
+}

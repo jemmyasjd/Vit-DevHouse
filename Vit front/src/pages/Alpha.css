@@ -1,0 +1,226 @@
+.alpha-real-time-sign {
+  margin: 0;
+  color: #00adb5;
+}
+
+.alpha-real-time-sign-container1 {
+  width: 100%;
+}
+.para{
+  color : #00adb5;
+  position:absolute;
+  top: 50px;
+}
+
+.alpha-real-time-sign-container {
+  position: absolute;
+  top: 65px;
+  left: 17px;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  width: 1373px;
+  height: 78px;
+}
+
+.alpha-desktop-2-child {
+  position: absolute;
+  top: 365px;
+  left: 172px;
+  background-color: var(--color-darkslategray);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1072px;
+  height: 676px;
+}
+
+.alpha-desktop-2-item {
+  position: absolute;
+  top: 1226px;
+  left: 172px;
+  background-color: var(--color-darkslategray);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1072px;
+  height: 155px;
+}
+
+.alpha-our-vision {
+  position: absolute;
+  top: calc(50% + 311px);
+  left: calc(50% - 703px);
+  font-size: 31px;
+  line-height: 55px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  justify-content: center;
+  color: #00adb5;
+  width: 1382px;
+  height: 63px;
+}
+
+.alpha-explore-text {
+  position: relative;
+  font-size: 26px;
+  line-height: 160%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 251px;
+  flex-shrink: 0;
+}
+
+.alpha-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 4px;
+}
+
+.alpha-explore-button {
+  cursor: pointer;
+  border: 2px solid var(--color-lightseagreen);
+  padding: 12px 20px;
+  background-color: var(--color-gray);
+  position: absolute;
+  top: 1456px;
+  left: 1170px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  width: 229px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.alpha-explore-button:hover {
+  background-color: var(--color-lightseagreen);
+}
+
+.alpha-features-main-heading {
+  position: absolute;
+  top: 197px;
+  left: 125px;
+  font-size: 31px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: #eee;
+  align-items: center;
+  justify-content: center;
+  width: 1195px;
+  height: 107px;
+}
+
+.alpha-image-11-icon {
+  position: absolute;
+  top: 250px;
+  left: 1051px;
+  border-radius: 22px;
+  width: 44px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.alpha-image-10-icon {
+  position: absolute;
+  top: 65px;
+  left: 1344px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+
+.alpha-desktop-2 {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 1582px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 44px;
+  color: var(--color-lightseagreen);
+  font-family: var(--font-outfit);
+}
+
+/* Media query for tablets */
+@media (max-width: 992px) {
+  .alpha-real-time-sign-container {
+    width: 100%;
+    left: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .alpha-desktop-2-child,
+  .alpha-desktop-2-item {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .alpha-our-vision {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .alpha-explore-button {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .alpha-features-main-heading {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .alpha-image-11-icon {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .alpha-image-10-icon {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+  .alpha-real-time-sign-container {
+    padding: 0 10px;
+  }
+
+  .alpha-desktop-2-child,
+  .alpha-desktop-2-item,
+  .alpha-our-vision,
+  .alpha-features-main-heading {
+    width: 80%;
+  }
+
+  .alpha-explore-button {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+
+  .alpha-image-11-icon,
+  .alpha-image-10-icon {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+  }
+}
