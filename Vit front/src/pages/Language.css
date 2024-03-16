@@ -1,0 +1,317 @@
+.lan-desktop-5-child {
+    position: absolute;
+    top: 562px;
+    left: 184px;
+    background-color: #404854;
+    border: 2px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1072px;
+    height: 180px;
+  }
+  .lan-desktop-5-item {
+    position: absolute;
+    top: 1030px;
+    left: 184px;
+    width: 1072px;
+    height: 155px;
+  }
+  .lan-our-vision {
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 450px;
+    line-height: 55px;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 1169px;
+    height: 63px;
+  }
+  .lan-real-time-language {
+    position: absolute;
+    color : #00adb5;
+    top: 0px;
+    left: 0px;
+    line-height: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 1373px;
+    height: 78px;
+  }
+  .lan-image-10-icon {
+    position: absolute;
+    top: 32px;
+    left: 1327px;
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+  }
+  .lan-frame {
+    position: absolute;
+    top: 26px;
+    left: 33px;
+    width: 1373px;
+    height: 78px;
+    overflow: hidden;
+    font-size: 44px;
+  }
+  .lan-features-main-heading {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1195px;
+    height: 107px;
+  }
+  .lan-image-11-icon {
+    position: absolute;
+    top: 53px;
+    left: 648px;
+    border-radius: 22px;
+    width: 44px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .lan-frame1 {
+    position: absolute;
+    top: 212px;
+    left: 142px;
+    width: 1195px;
+    height: 107px;
+    overflow: hidden;
+    font-size: 31px;
+    color: var(--color-whitesmoke);
+    font-family: var(--font-inter);
+  }
+  .lan-our-vision1 {
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 588.5px);
+    line-height: 55px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 690px;
+    height: 63px;
+  }
+  .lan-nav-link {
+    position: absolute;
+    top: 0px;
+    left: 1010px;
+    width: 167px;
+    height: 43px;
+  }
+  .lan-nav-label {
+    position: absolute;
+    top: 21px;
+    left: 1009px;
+    font-size: var(--font-size-11xl);
+    line-height: 160%;
+    font-weight: 600;
+    font-family: var(--font-roboto);
+    color: var(--color-whitesmoke);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 54px;
+  }
+  .lan-small-icon-icon {
+    position: absolute;
+    top: 41px;
+    left: 1165px;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 14px;
+  }
+  .lan-icon-jd{
+    position: absolute;
+    top: 41px;
+    left: 1100px;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 14px;
+  }
+  .lan-icon-jd2{
+    position: absolute;
+    top: 41px;
+    left: 1100px;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 14px;
+  }
+  .lan-frame2 {
+    position: absolute;
+    top: 441px;
+    left: 72px;
+    width: 1177px;
+    height: 78px;
+    overflow: hidden;
+  }
+  .lan-explore-text {
+    position: relative;
+    font-size: var(--font-size-7xl);
+    line-height: 160%;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251px;
+    flex-shrink: 0;
+  }
+  .lan-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px var(--padding-9xs);
+  }
+  .lan-explore-button {
+    cursor: pointer;
+    border: 2px solid var(--color-lightseagreen);
+    padding: var(--padding-xs) var(--padding-xl);
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0px;
+    left: 378px;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    width: 229px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .lan-explore-button:hover {
+    background-color: var(--color-lightseagreen);
+    animation: 1s ease 0s 1 normal none scale-up;
+    opacity: 1;
+  }
+  
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .lan-nav-label1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    line-height: 160%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 54px;
+  }
+  .lan-small-icon-icon1 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 14px;
+  }
+  .lan-frame3 {
+    position: absolute;
+    top: 906px;
+    left: 423px;
+    width: 607px;
+    height: 65px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-whitesmoke);
+    font-family: var(--font-roboto);
+  }
+  .lan-explore-button1 {
+    cursor: pointer;
+    border: 2px solid var(--color-lightseagreen);
+    padding: var(--padding-xs) var(--padding-xl);
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 117px;
+    left: 486px;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    width: 229px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .lan-explore-button1:hover {
+    animation: 1s ease 0s 1 normal none scale-up;
+    opacity: 1;
+  }
+  .lan-frame-child {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: var(--color-lightseagreen);
+    position: absolute;
+    top: 6px;
+    left: 11px;
+    border-radius: 58.5px;
+    width: 121px;
+    height: 108px;
+  }
+  .lan-image-12 {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    border-radius: 49.5px;
+    width: 106px;
+    height: 94px;
+    /* background-image: url("/public/image-12@3x.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .lan-image-12:hover {
+    animation: 1s ease 0s infinite normal none scale-up;
+    opacity: 1;
+  }
+  .lan-frame4 {
+    position: absolute;
+    top: 1308px;
+    left: 668px;
+    width: 715px;
+    height: 182px;
+    overflow: hidden;
+  }
+  .lan-desktop-5 {
+    position: relative;
+    background-color: var(--color-gray);
+    width: 100%;
+    height: 1582px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-26xl);
+    color: var(--color-lightseagreen);
+    font-family: var(--font-outfit);
+  }
+  
