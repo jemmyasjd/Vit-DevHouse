@@ -1,13 +1,12 @@
-import "./Language.css";
-import { useState,useRef } from "react";
-
+import { useState, useRef } from "react";
+import styles from "./Language.module.css"; // Import CSS module
 
 const Language = () => {
   const [language1, setLanguage1] = useState('');
   const [language2, setLanguage2] = useState('');
   const [songlan, setSonglan] = useState('');
-  const [sentence,setSentence] = useState(''); 
-  const [backendData,setBackendData] = useState('');
+  const [sentence, setSentence] = useState('');
+  const [backendData, setBackendData] = useState('');
   const audioRef = useRef(null);
 
   const handleSentenceChange = (event) => {
@@ -43,7 +42,6 @@ const Language = () => {
         },
         body: JSON.stringify(requestBody)
       });
-      console.log(response);
 
       // Check if the request was successful
       if (response) {
@@ -62,7 +60,7 @@ const Language = () => {
   const handleSendButtonClick2 = async () => {
     const requestBody = {
       sentence: sentence,
-      song: songlan
+      song: language2,
     };
     try {
       // Make the POST request to the API
@@ -100,39 +98,32 @@ const Language = () => {
 
   return (
     <div>
-      Real time Detection 
+    <div >
+      <p className={styles.real}>Real time Detection</p>
       <div>
-        <p>Type the sentence and select the language</p>
-
-        <input onChange={handleSentenceChange} value={sentence} type="text" />
-        <button disabled={isButtonDisabled1()}  onClick={handleSendButtonClick}>Send</button>
-        
-        <select value={language1} onChange={handleLanguage1Change}>
+        <p className={styles.transRealTimeSign}>Type the sentence and select the language</p>
+        <input className={styles.input} onChange={handleSentenceChange} value={sentence} type="text" />
+        <select className={styles.dropdown1} value={language1} onChange={handleLanguage1Change}>
           <option value="">Select</option>
           <option value="en">English</option>
           <option value="hi">Hindi</option>
           <option value="Spanish">Spanish</option>
-          <option value="French">French</option>  
+          <option value="French">French</option>
         </select>
-        <p>Sekect the ouput languagw</p>
-        <select value={language2} onChange={handleLanguage2Change}>
+        <p className={styles.output}>Select the output language</p>
+        <button className={styles.buttonSend} disabled={isButtonDisabled1()} onClick={handleSendButtonClick}>Send</button>
+        <select className={styles.dropdown2} value={language2} onChange={handleLanguage2Change}>
           <option value="">Select</option>
           <option value="en">English</option>
           <option value="hi">Hindi</option>
           <option value="Spanish">Spanish</option>
-          <option value="French">French</option>  
+          <option value="French">French</option>
         </select>
-        <p>{backendData}</p>
-        <button disabled={isButtonDisabled2()}  onClick={handleSendButtonClick2}>sound</button>
-        <select value={language2} onChange={handleSoundChange}>
-          <option value="">Select</option>
-          <option value="en">English</option>
-          <option value="hi">Hindi</option>
-          <option value="Spanish">Spanish</option>
-          <option value="French">French</option>  
-        </select>
+        <p className={styles.backout}>{backendData}</p>
+        <button className={styles.sound} disabled={isButtonDisabled2()} onClick={handleSendButtonClick2}>Sound</button>
         <audio ref={audioRef} src={backendData} controls style={{ display: 'none' }} />
       </div>
+    </div>
     </div>
   );
 };

@@ -10,6 +10,7 @@ import Trans from "./pages/Trans";
 import Alpha from "./pages/Alpha";
 import Word from "./pages/Word";
 import Language from "./pages/Language";
+import Contact from "./pages/Contact";
 
 function App() {
   const action = useNavigationType();
@@ -54,6 +55,7 @@ function App() {
       <Route path="/alpha" element={<Alpha />} />
       <Route path="/word" element={<Word />} />
       <Route path="/lan" element={<Language />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }

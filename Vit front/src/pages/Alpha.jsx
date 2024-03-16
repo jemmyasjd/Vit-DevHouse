@@ -1,4 +1,5 @@
 import "./Alpha.css";
+import WebcamCapture from "./WebCam";
 
 const Alpha = () => {
   return (
@@ -9,8 +10,8 @@ const Alpha = () => {
           <p className="alpha-real-time-sign">Translation Started</p>
         </span>
       </div>
-      <div className="alpha-desktop-2-child" />
-      <div className="alpha-desktop-2-item" />
+      <WebcamCapture className="alpha-desktop-2-child" />
+     
       <b className="alpha-our-vision">
         Translated Alphabet’s/Numeric from real time gestures:
       </b>
@@ -19,8 +20,6 @@ const Alpha = () => {
           <div className="alpha-explore-text">{`Go Back `}</div>
         </div>
       </button>
-      <b className="alpha-features-main-heading">{`Focus below the camera, showcase your signs, and watch as they're seamlessly transformed into text right before your eyes. `}</b>
-      <img className="alpha-image-11-icon" alt="" src="/smile.jpg" />
 
     </div>
   );

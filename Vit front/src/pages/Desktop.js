@@ -404,9 +404,8 @@ const Desktop = () => {
         <div className="navbar">
           <div className="navigation-right">
             <div className="navigation">
-              <button className="home">HOME</button>
-              <button className="home">ABOUT US</button>
-              <button className="home">CONTACT US</button>
+              <button onClick={()=> navigate('/')} className="home">HOME</button>
+              <button onClick={()=> navigate('/contact')} className="home">CONTACT US</button>
             </div>
           </div>
           <div className="explore-link">
